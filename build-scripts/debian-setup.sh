@@ -46,8 +46,8 @@ hostname -b -F /etc/hostname
 
 passwd --expire root
 
-wget https://raw.githubusercontent.com/shapeblue/cloudstack-scripts/master/cloud-set-guest-password-debian -O /etc/init.d/cloud-set-guest-password-debian
-wget https://raw.githubusercontent.com/shapeblue/cloudstack-scripts/master/cloud-set-guest-sshkey-debian -O /etc/init.d/cloud-set-guest-sshkey-debian
+wget https://raw.githubusercontent.com/radiantflow/cloudstack-scripts/master/cloud-set-guest-password-debian -O /etc/init.d/cloud-set-guest-password-debian
+wget https://raw.githubusercontent.com/radiantflow/cloudstack-scripts/master/cloud-set-guest-sshkey-debian -O /etc/init.d/cloud-set-guest-sshkey-debian
 
 chmod +x /etc/init.d/cloud-set-guest-password-debian
 chmod +x /etc/init.d/cloud-set-guest-sshkey-debian
